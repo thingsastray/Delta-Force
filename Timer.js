@@ -56,7 +56,6 @@ function lagHandler(event){
 
 function tickHandler(event){
 	var millyCurrent = Date.now();
-	// this.millyCurrent = Date.now();
 	var devation = (this.millyCurrent - this.millyStart) - (this.i * 1000);
 
 	console.log('tick', + this.i);
